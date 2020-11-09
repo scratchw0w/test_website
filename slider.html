@@ -1,38 +1,57 @@
 <!DOCTYPE html>
-<html>
-<head>
-   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-   <title>3 Column Layout</title>
-   <link rel="stylesheet" href="assets/css/layout.css">
-</head>
-<body>
-<header class="header"><p>Header...</p></header>
-<div class="container">
-   <main class="center column">
-       <article>
-           <h1>Slider Page</h1>
-           <p></p>
-       </article>
-   </main>
-   <nav class="left column">
-       <h3>Left heading</h3>
-       <ul>
-           <li><a href="#">Link 1</a></li>
-           <li><a href="#">Link 2</a></li>
-       </ul>
-       <h3>Left heading</h3>
-       <ul>
-           <li><a href="#">Link 1</a></li>
-           <li><a href="#">Link 2</a></li>
-       </ul>
-   </nav>
-   <div class="right column">
-       <h3>Right heading</h3>
-       <p></p>
-   </div>
-</div>
-<div class="footer-wrapper">
-   <footer class="footer"><p>Footer...</p></footer>
-</div>
-</body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="assets/css/layout.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/slide.css">
+        <script src="assets/js/script.js" defer></script>
+        <title>Slider</title>
+    </head>
+    <body>
+      <header class="header">
+          <div class="container">
+            <a href="index.html" class="logo">
+              <img src="public/images/logo.png" alt=""/>
+            </a>
+          </div>
+      </header>
+      <div class="container">
+         <main class="center column">
+             <article>
+                 <h1>Slider</h1>
+                    <div id="mySlider"></div>
+                    <div class="slider_btns">
+                      <button onclick="prevSlide()" id="prev_btn">Previous</button>
+                      <button onclick="nextSlide()" id="next_btn">Next</button>
+                    </div>
+                 <p></p>
+             </article>
+         </main>
+         <nav class="left column">
+             <h3>Left heading</h3>
+             <ul>
+                 <li><a href="media.html">Media</a></li>
+                 <li><a href="table.html">Table</a></li>
+             </ul>
+             <h3>Left heading</h3>
+             <ul>
+                 <li><a href="slider.html">Slider</a></li>
+                 <li><a href="about.html">About</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+             </ul>
+         </nav>
+         <div class="right column">
+             <h3>Right heading</h3>
+             <p></p>
+         </div>
+      </div>
+      <div class="footer-wrapper">
+         <footer class="footer">
+              <div class="container">
+              </div>
+              <p>Some text, some text, some text, some text, some text, some text.</p>
+         </footer>
+      </div>
+      </body>
 </html>
