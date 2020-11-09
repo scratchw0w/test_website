@@ -92,6 +92,7 @@ a.slider {
  }
  
  #prev_btn {
+  
   border: none;
   color: green;
   padding: 15px 32px;
@@ -102,6 +103,7 @@ a.slider {
  }
 
  #next_btn { 
+   
    border: none;
    color: green;
    padding: 15px 32px;
