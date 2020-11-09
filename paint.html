@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="assets/css/layout.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <script src="assets/js/paint.js" defer></script>
+        <title>PaintPage</title>
+    </head>
+    <body>
+      <header class="header">
+          <div class="container">
+            <a href="index.html" class="logo">
+              <img src="public/images/logo.png" alt=""/>
+            </a>
+          </div>
+      </header>
+      <div class="container">
+         <main class="center column">
+             <article>
+                 <h1>Paint Page</h1>
+                 <canvas id="draw" width="490" height="220" style="border: 1px solid black;"></canvas>
+                 <div style="float: left;">
+                     <p style="margin-right: 10px;">Paint color
+                     <input id="paintColor" type="color" value="#000000"></p>
+                     <p style="margin-right: 10px;">Paint size
+                         <select id="paintSize">
+                             <option value="5">5px</option>
+                             <option value="10">10px</option>
+                             <option value="15">15px</option>
+                             <option value="20">20px</option>
+                             <option value="25">25px</option>
+                         </select></p>
+                     <input type="submit" value="CLEAR" onclick="clearCanvas()">
+                 </div>
+            </article>
+         </main>
+         <nav class="left column">
+             <h3>Left heading</h3>
+             <ul>
+                 <li><a href="media.html">Media</a></li>
+                 <li><a href="table.html">Table</a></li>
+             </ul>
+             <h3>Left heading</h3>
+             <ul>
+                 <li><a href="slider.html">Slider</a></li>
+                 <li><a href="about.html">About</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+             </ul>
+         </nav>
+         <div class="right column">
+             <h3>Right heading</h3>
+             <p></p>
+         </div>
+      </div>
+      <div class="footer-wrapper">
+         <footer class="footer">
+              <div class="container">
+              </div>
+              <p>Some text, some text, some text, some text, some text, some text.</p>
+         </footer>
+      </div>
+      </body>
+</html>
