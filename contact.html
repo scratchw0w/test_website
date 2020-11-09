@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <title>ContactPage</title>
+   <link rel="stylesheet" href="assets/css/layout.css">
+   <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="public/images/logo.png" alt=""/>
+      </a>
+    </div>
+</header>
+<div class="container">
+   <main class="center column">
+       <article>
+          <h1>Contact</h1>
+          <div class="user-form">
+            <h3>User details</h3>
+            <label for="fname">Full name *:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="date">Your birthday *:</label><br>
+            <input type="date" id="bday" name="bday"><br>
+            <select name="gender" id="gender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select><br>
+            <label for="country">Country:</label><br>
+            <input type="country" id="country" name="country">
+            <input type="text" id="phone" name="phone" placeholder="Phone *"><br>
+            <label for="phone" id="label-mobile">123 123 123</label>
+            <label for="phone" id="label-mobile">321 321 321</label><br>
+            <label for="bio">Bio: </label><br>
+            <textarea id="bio" name="bio" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit. An vero, inquit, quisquam potest probare, quod perceptfum, quod."></textarea><br>
+            <label for="bio">Tell us about yourself</label><br>
+        </div>
+        
+        <div class="account-form">
+              <h3>Account details</h3>
+              <input type="text" id="user" name="user" placeholder="Username *"><br>
+              <input type="text" id="email" name="email" placeholder="Email *"><br>
+              <input type="password" id="password" name="password" placeholder="Password *"><br>
+              <input type="password" id="conf_password" name="conf_password" placeholder="Confirm password *"><br>
+              <input type="checkbox" id="cb" name="cb">
+              <label>I accept terms and conditions</p>
+              <input type="button" id="btn2" name="btn2" value="Submit"><br><br>
+          </div>
+       </article>
+   </main>
+   <nav class="left column">
+       <h3>Left heading</h3>
+       <ul>
+           <li><a href="media.html">Media</a></li>
+           <li><a href="table.html">Table</a></li>
+       </ul>
+       <h3>Left heading</h3>
+       <ul>
+           <li><a href="slider.html">Slider</a></li>
+           <li><a href="about.html">About</a></li>
+           <li><a href="contact.html">Contact</a></li>
+       </ul>
+   </nav>
+   <div class="right column">
+       <h3>Right heading</h3>
+       <p></p>
+   </div>
+</div>
+<div class="footer-wrapper">
+   <footer class="footer">
+        <div class="container">
+        </div>
+   </footer>
+</div>
+</body>
+</html>
